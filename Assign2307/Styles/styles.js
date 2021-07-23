@@ -1,6 +1,10 @@
-import {Dimensions, StyleSheet} from 'react-native';
+import {Dimensions, StyleSheet, Platform} from 'react-native';
 const {height, width} = Dimensions.get('screen');
 export const styles = StyleSheet.create({
+  droidSafeArea: {
+    
+    paddingTop: Platform.OS === 'android' ? 20 : 0,
+  },
   container: {
     flex: 1,
   },
@@ -18,10 +22,14 @@ export const styles = StyleSheet.create({
   formSearch: {
     width: width * 0.7,
     borderRadius: 5,
-    padding: height * 0.01,
+    // padding: height * 0.01,
     backgroundColor: '#eee',
     flexDirection: 'row',
+    alignItems: 'center',
     justifyContent: 'space-between',
+  },
+  search: {
+    padding: height * 0.01,
   },
   profile: {
     // paddingHorizontal: 10,

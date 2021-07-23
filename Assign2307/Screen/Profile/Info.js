@@ -13,16 +13,25 @@ import {styles} from '../../Styles/styles';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 const Info = () => {
-  const [textSearch, setTextSearch] = useState('');
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.droidSafeArea}>
       <ScrollView style={{paddingHorizontal: 20}}>
         {/* //header */}
         <View style={styles.header}>
           <Text style={styles.logo}>Tôi</Text>
           <View style={styles.formSearch}>
-            <TextInput placeholder="Tìm tên/ID/Tên phòng live" />
-            <Icon name="search" size={20} color="#bbb" />
+            <TextInput
+              placeholder="Tìm tên/ID/Tên phòng live"
+              style={styles.search}
+            />
+            <TouchableOpacity>
+              <Icon
+                name="search"
+                size={20}
+                color="#bbb"
+                style={{marginRight: 10}}
+              />
+            </TouchableOpacity>
           </View>
           <Image
             source={require('../../Assests/ic_profile_off.png')}

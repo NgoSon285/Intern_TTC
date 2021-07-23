@@ -76,6 +76,9 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  Text: {
+    fontWeight: '500',
+  },
   indicators: {
     flexDirection: 'row',
     justifyContent: 'space-around',
@@ -115,6 +118,7 @@ export const styles = StyleSheet.create({
     padding: 5,
   },
   imageMethod: {
+    flex: 1,
     width: 75,
     height: 75,
     marginVertical: 20,

@@ -72,16 +72,16 @@ const Info = () => {
           {/* indicators */}
           <View style={styles.indicators}>
             <View style={styles.indicatorsItem}>
-              <Text style={{fontWeight: '500'}}>0</Text>
-              <Text style={{fontWeight: '500'}}>Bạn bè</Text>
+              <Text style={styles.Text}>0</Text>
+              <Text style={styles.Text}>Bạn bè</Text>
             </View>
             <View style={styles.indicatorsItem}>
-              <Text style={{fontWeight: '500'}}>0</Text>
-              <Text style={{fontWeight: '500'}}>Theo dõi</Text>
+              <Text style={styles.Text}>0</Text>
+              <Text style={styles.Text}>Theo dõi</Text>
             </View>
             <View style={styles.indicatorsItem}>
-              <Text style={{fontWeight: '500'}}>0</Text>
-              <Text style={{fontWeight: '500'}}>Fan</Text>
+              <Text style={styles.Text}>0</Text>
+              <Text style={styles.Text}>Fan</Text>
             </View>
           </View>
           {/*  money */}
@@ -134,28 +134,28 @@ const Info = () => {
                 source={require('../../Assests/ic_recharge.png')}
                 style={styles.imageMethod}
               />
-              <Text>Nạp tiền</Text>
+              <Text style={styles.Text}>Nạp tiền</Text>
             </TouchableOpacity>
             <TouchableOpacity>
               <Image
                 source={require('../../Assests/ic_without.png')}
                 style={styles.imageMethod}
               />
-              <Text>Rút tiền</Text>
+              <Text style={styles.Text}>Rút tiền</Text>
             </TouchableOpacity>
             <TouchableOpacity>
               <Image
                 source={require('../../Assests/ic_shopping.png')}
                 style={styles.imageMethod}
               />
-              <Text>Mua sắm</Text>
+              <Text style={styles.Text}>Mua sắm</Text>
             </TouchableOpacity>
             <TouchableOpacity>
               <Image
                 source={require('../../Assests/ic_VIP_level.png')}
                 style={styles.imageMethod}
               />
-              <Text> Cấp VIP</Text>
+              <Text style={styles.Text}> Cấp VIP</Text>
             </TouchableOpacity>
           </View>
           <View>

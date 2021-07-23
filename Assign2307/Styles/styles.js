@@ -2,7 +2,6 @@ import {Dimensions, StyleSheet, Platform} from 'react-native';
 const {height, width} = Dimensions.get('screen');
 export const styles = StyleSheet.create({
   droidSafeArea: {
-    
     paddingTop: Platform.OS === 'android' ? 20 : 0,
   },
   container: {
@@ -116,8 +115,8 @@ export const styles = StyleSheet.create({
     padding: 5,
   },
   imageMethod: {
-    width: 70,
-    height: 70,
+    width: 75,
+    height: 75,
     marginVertical: 20,
   },
   imageNav: {

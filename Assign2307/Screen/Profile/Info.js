@@ -128,7 +128,7 @@ const Info = () => {
             </ImageBackground>
           </View>
           {/* method  */}
-          <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+          <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
             <TouchableOpacity>
               <Image
                 source={require('../../Assests/ic_recharge.png')}

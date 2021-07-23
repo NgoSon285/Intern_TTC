@@ -52,7 +52,11 @@ const Info = () => {
                   style={styles.buttonEdit}
                 />
               </TouchableOpacity>
-              <View style={{justifyContent: 'center', alignItems: 'center'}}>
+              <View
+                style={{
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                }}>
                 <Image
                   source={require('../../Assests/ic_default_avatar.png')}
                   style={styles.imageAvatar}
@@ -128,7 +132,11 @@ const Info = () => {
             </ImageBackground>
           </View>
           {/* method  */}
-          <View style={{flexDirection: 'row', justifyContent: 'space-around'}}>
+          <View
+            style={{
+              flexDirection: 'row',
+              justifyContent: 'space-around',
+            }}>
             <TouchableOpacity>
               <Image
                 source={require('../../Assests/ic_recharge.png')}

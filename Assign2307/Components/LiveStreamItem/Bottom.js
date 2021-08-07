@@ -6,24 +6,24 @@ const Bottom = prop => {
   return (
     <View>
       <View style={{justifyContent: 'center', alignItems: 'center'}}>
-        <Text style={{color: 'gold',fontWeight:'600'}}>{prop.slot} chỗ</Text>
+        <Text style={{color: 'gold', fontWeight: '700'}}>{prop.slot} chỗ</Text>
       </View>
       <View style={stylesLive.bottomContainer}>
         <TouchableOpacity style={stylesLive.buttonNav}>
-          <Text>Phòng </Text>
-          <Text>bình thường</Text>
+          <Text style={stylesLive.titleNav}>Phòng </Text>
+          <Text style={stylesLive.titleNav}>bình thường</Text>
         </TouchableOpacity>
         <TouchableOpacity style={stylesLive.buttonNav}>
-          <Text>Phòng </Text>
-          <Text>nhiều người</Text>
+          <Text style={stylesLive.titleNav}>Phòng </Text>
+          <Text style={stylesLive.titleNav}>nhiều người</Text>
         </TouchableOpacity>
         <TouchableOpacity style={stylesLive.buttonNav}>
-          <Text>Phòng </Text>
-          <Text>thu phí</Text>
+          <Text style={stylesLive.titleNav}>Phòng </Text>
+          <Text style={stylesLive.titleNav}>thu phí</Text>
         </TouchableOpacity>
         <TouchableOpacity style={stylesLive.buttonNav}>
-          <Text>Phòng </Text>
-          <Text>mật khẩu</Text>
+          <Text style={stylesLive.titleNav}>Phòng </Text>
+          <Text style={stylesLive.titleNav}>mật khẩu</Text>
         </TouchableOpacity>
       </View>
     </View>

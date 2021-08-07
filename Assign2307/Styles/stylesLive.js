@@ -18,6 +18,7 @@ export const stylesLive = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 10,
     marginVertical: width * 0.2,
+    opacity: 0.9,
   },
   titleGameContainer: {
     color: '#fff',
@@ -44,7 +45,7 @@ export const stylesLive = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 10,
-
+    opacity: 0.9,
     // height: height * 0.3,
   },
   listSlot: {
@@ -66,6 +67,7 @@ export const stylesLive = StyleSheet.create({
     width: width * 0.8,
     marginTop: width * 0.15,
     marginBottom: 10,
+    
   },
   buttonStart: {
     backgroundColor: '#1a75ff',
@@ -87,15 +89,20 @@ export const stylesLive = StyleSheet.create({
     borderWidth: 2,
     borderColor: '#1a75ff',
     backgroundColor: '#444',
+    
   },
   bottomContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    
   },
   buttonNav: {
     width: width * 0.2,
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  titleNav: {
+    color: '#fff',
   },
 });

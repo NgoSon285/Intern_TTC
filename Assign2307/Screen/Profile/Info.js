@@ -15,7 +15,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 const Info = () => {
   return (
     <SafeAreaView style={styles.droidSafeArea}>
-      <ScrollView style={{paddingHorizontal: 20}}>
+      <ScrollView style={styles.container}>
         {/* //header */}
         <View style={styles.header}>
           <Text style={styles.logo}>Tôi</Text>

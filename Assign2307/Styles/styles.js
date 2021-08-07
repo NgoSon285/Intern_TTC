@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
     paddingTop: Platform.OS === 'android' ? 20 : 0,
   },
   container: {
-    flex: 1,
+    paddingHorizontal: 20,
   },
   header: {
     flexDirection: 'row',
